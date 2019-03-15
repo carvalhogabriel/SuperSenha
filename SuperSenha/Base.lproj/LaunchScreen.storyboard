@@ -19,12 +19,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="zZu-xb-pYe">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="zZu-xb-pYe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="88c-bw-bKh"/>
+                            <constraint firstItem="zZu-xb-pYe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-20" id="88c-bw-bKh"/>
                             <constraint firstItem="zZu-xb-pYe" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Bwy-LX-7Vt"/>
                             <constraint firstItem="zZu-xb-pYe" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DBI-YT-UcX"/>
                             <constraint firstItem="zZu-xb-pYe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wo6-Fv-QXf"/>
